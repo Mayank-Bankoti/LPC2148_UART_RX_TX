@@ -1,0 +1,30 @@
+<html>
+<body>
+<pre>
+<h1>µVision3 Build Log</h1>
+<h2>Project:</h2>
+C:\Users\mayan\Documents\ARM\UART_Transmit_Recieve\UART_TX_RX.uv2
+Project File Date:  08/08/2023
+
+<h2>Output:</h2>
+Build target 'Target 1'
+assembling Startup.s...
+linking...
+*** WARNING L23: UNRESOLVED EXTERNAL SYMBOLS
+*** ERROR L128: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  ?C?INIT
+    ADDRESS: 00000104H
+Program Size: data=1168 const=16 code=296
+Target not created
+Build target 'Target 1'
+compiling UART_TX_RX.c...
+linking...
+Program Size: data=1168 const=46 code=504
+"UART_TX_RX" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+assembling Startup.s...
+compiling UART_TX_RX.c...
+linking...
+Program Size: data=1168 const=46 code=504
+creating hex file from "UART_TX_RX"...
+"UART_TX_RX" - 0 Error(s), 0 Warning(s).
